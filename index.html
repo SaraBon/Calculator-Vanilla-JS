@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator - Vanilla JS</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="container">
+  
+  <div class="wrapper-Calculator"> 
+        <div class="grid-Calculator">
+          <div id="ac" onClick="onClickClear()">AC</div>
+          <div  id="display-calculator"></div>
+          <div class="number" onClick="onClickNr(1)">1</div>
+          <div class="number" onClick="onClickNr(2)">2</div>
+          <div class="number" onClick="onClickNr(3)">3</div>
+          <div class="operator" onClick="onClickOp('+')">+</div>
+          <div class="number" onClick="onClickNr(4)">4</div>
+          <div class="number" onClick="onClickNr(5)">5</div>
+          <div class="number" onClick="onClickNr(6)">6</div>
+          <div class="operator" onClick="onClickOp('-')">&minus;</div>
+          <div class="number" onClick="onClickNr(7)">7</div>
+          <div class="number" onClick="onClickNr(8)">8</div>
+          <div class="number" onClick="onClickNr(9)">9</div>
+          <div class="operator" onClick="onClickOp('*')">&times;</div>
+          <div class="number" onClick="onClickNr(0)">0</div>
+          <div class="number" onClick="onClickDecimal()">.</div>
+          <div id="equals" onClick="onClickEqual()">=</div>
+          <div class="operator" onClick="onClickOp('*')">&divide;</div>
+        </div>
+     </div>
+  
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

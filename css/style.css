@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+.wrapper-Calculator {
+  margin: auto;
+  height: 500px;
+  width: 350px;
+  padding: 40px;
+}
+
+.grid-Calculator {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  place-items: strech;
+  text-align: center;
+}
+
+#display-calculator {
+  grid-column: 2 / span 3;
+  text-align: right;
+  background-color: #c0cfc9;
+  padding: 20px;
+}
+
+#ac, #equals, .number, .operator {
+  padding: 20px;
+  cursor: pointer;
+}
+
+#ac{
+  background-color: #fcaea5;
+}
+
+#equals{
+  background-color: #c0cfc9;
+}
+
+.number{
+  background-color: #cfc0c3;
+}
+
+.operator{
+  background-color: #c0c6cf;
+}
