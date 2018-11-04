@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/s4r4/pen/mQdNGB.
-
+See a [DEMO](https://sarabon.github.io/Calculator-Vanilla-JS/) of this simple Vanilla JavaScript Calculator app.
  
